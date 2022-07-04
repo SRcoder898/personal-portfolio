@@ -96,7 +96,7 @@ h1 span{
     margin: 15px 15px 15px 15px;
     padding: 40px;
     text-align: center;
-    box-shadow: 5px 5px lightslategray;
+    box-shadow: 10px 10px 10px lightslategray;
     line-height: 30px;
 }
 
@@ -106,7 +106,7 @@ h1 span{
     margin: 15px 15px 15px 15px;
     padding: 40px;
     text-align: center;
-    box-shadow: 5px 5px lightslategray;
+    box-shadow: 10px 10px 10px lightslategray;
     line-height: 30px;
 }
 
@@ -116,11 +116,78 @@ h1 span{
     margin: 15px 15px 15px 15px;
     padding: 40px;
     text-align: center;
-    box-shadow: 5px 5px lightslategray;
+    box-shadow: 10px 10px 10px lightslategray;
     line-height: 30px;
 }
 
-
-
 /*EXPERIENCE SECTION END*/
+
+
+/*SERVICES SECTION START*/
+.service-area{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;margin-left: 10px;
+    margin-right: 10px;
+}
+
+.first-service{
+    border-right:5px solid orangered;
+    border-radius: 2px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px lightslategray;
+    line-height: 30px;
+}
+
+.first-service:hover{
+    background-color: blue;
+    transition: 1s;
+    color: white;
+}
+
+.second-service:hover{
+    background-color: orangered;
+    transition: 1s;
+    color: white;
+}
+
+.third-service:hover{
+    background-color: blue;
+    transition: 1s;
+    color: white;
+}
+
+.second-service{
+    border-right: 5px solid blue;
+    border-radius: 2px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px lightslategray;
+    line-height: 30px;
+}
+
+.third-service{
+    border-right: 5px solid orangered;
+    border-radius: 2px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px lightslategray;
+    line-height: 30px;
+}
+
+.first-service h3{
+    border-bottom: solid 2px orangered;
+}
+.second-service h3{
+    border-bottom: solid 2px orangered;
+}
+.third-service h3{
+    border-bottom: solid 2px orangered;
+}
+
+/*SERVICES SECTION END*/
 
