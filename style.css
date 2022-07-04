@@ -1,26 +1,126 @@
 body{
-    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Finlandica', sans-serif;
 }
 
-section{
+/* TOP SECTION START NOW */
+#top-section{
     display: flex;
+    background-image: url();
 }
 h1{
     color: orange;
     font-size: 45px;
     margin-right: 421px;
-    padding-left: 20px;
+    margin-left: 20px;
     line-height: 48px;
 }
 h1 span{
     color: black;
 }
-section img{
+#top-section img{
     border-radius: 300px;
     height: 324px;
     width: 342px;
     background-color: orange;
-    padding-right: 1px;
+    opacity: 0.5;
 
 }
+#top-section button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(red, 
+     orange);
+}
+#top-section button a{
+    text-decoration: none;
+    color: white;
+}
+/* TOP SECTION END NOW */
+
+/* ABOUT SECTION STYLE START*/
+#about-section{
+    margin-top: 100px;
+    display: flex;
+}
+#about-section img{
+    border-radius: 300px;
+    height: 324px;
+    width: 342px;
+    background-color: orange;
+    opacity: 0.5;
+}
+#about-section h2{
+
+    margin-left: 200px;
+    text-decoration: underline;
+    font-size: 30px;
+
+}
+#about-section p{
+
+    margin-left: 200px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 10px;
+    line-height: 30px;
+    
+}
+
+
+
+/* ABOUT SECTION STYLE END*/
+
+/*EXPERIENCE SECTION START*/
+
+.exp-h1{
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    margin-top: 100px;
+}
+
+.experience-area{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.first-experinece{
+    border-left: 5px solid orangered;
+    border-radius: 2px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 5px 5px lightslategray;
+    line-height: 30px;
+}
+
+.second-experinece{
+    border-left: 5px solid blue;
+    border-radius: 2px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 5px 5px lightslategray;
+    line-height: 30px;
+}
+
+.third-experinece{
+    border-left: 5px solid orangered;
+    border-radius: 2px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 5px 5px lightslategray;
+    line-height: 30px;
+}
+
+
+
+/*EXPERIENCE SECTION END*/
 
